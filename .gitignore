@@ -1,0 +1,50 @@
+### Backend (Spring Boot)
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+**/application-*.yml
+**/application-*.properties
+*.iml
+
+### IntelliJ IDEA config
+.idea/
+*.ipr
+*.iws
+
+### Logs
+*.log
+
+### OS files
+.DS_Store
+Thumbs.db
+
+### Environment files 
+.env
+.env.local
+.env.*.local
+
+### Node / React / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Next.js Cache
+.next/cache/
+
+# npm & yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### VSCode
+.vscode/
+
+### Others
+*.class
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.rar
